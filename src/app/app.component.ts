@@ -9,6 +9,7 @@ export class AppComponent implements OnInit {
   title = 'segunda aula';
   latitude:string;
   longitude:string;
+  temperatura:string;
 
   ngOnInit(){
     console.log("Inicio!")
